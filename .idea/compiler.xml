@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AutoMoridim" />
+        <module name="MoridimSite" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AutoMoridim" target="1.5" />
+      <module name="MoridimSite" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
