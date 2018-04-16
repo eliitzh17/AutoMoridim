@@ -4,12 +4,15 @@ import objects.AbstractObject;
 import objects.Button;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import static java.lang.Integer.valueOf;
 import static org.openqa.selenium.By.tagName;
+import static utils.Utils.*;
+import static utils.Utils.deleteStraightWatchHebrewSentence;
 
-public class BasicMediaInfo extends AbstractObject {
-
+public class BasicMediaInfo extends AbstractObject
+{
     public static final String BASIC_MEDIA_INFO_ID = "right";
 
     private static final String TITLE_ID = "title";
@@ -22,22 +25,31 @@ public class BasicMediaInfo extends AbstractObject {
 
     private String hebrewName;
     private String englishName;
+
+    @FindBy(css = "שנת יציאה")
     private int year;
+    @FindBy(id = "plot")
     private String mediaDescription;
+    @FindBy(css = "צפיות")
     private int views;
+    @FindBy(className = "thumbsUp")
     private Button vote;
+
     private Button addToMyLibrary;
 
-    public BasicMediaInfo(WebElement webElement) {
+    public BasicMediaInfo(WebElement webElement)
+    {
         super(webElement);
     }
 
     public void init()
     {
         initTitle();
-        year = valueOf(webElement.findElement(By.cssSelector("span[title='" + YEAR_CREATION_CSS_SELECTOR + "']")).getText());
+        year = valueOf(
+                webElement.findElement(By.cssSelector("span[title='" + YEAR_CREATION_CSS_SELECTOR + "']")).getText());
         mediaDescription = webElement.findElement(By.id(DESCRIPTION_ID)).getText();
-        views = valueOf(webElement.findElement(By.cssSelector("span[title='" + VIEWS_NUMBER_CSS_SELECTOR + "']")).getText());
+        views = valueOf(
+                webElement.findElement(By.cssSelector("span[title='" + VIEWS_NUMBER_CSS_SELECTOR + "']")).getText());
         vote = new Button(webElement.findElement(By.className(VOTE_CLASS_NAME)));
     }
 
@@ -52,31 +64,34 @@ public class BasicMediaInfo extends AbstractObject {
 
     public String getHebrewName()
     {
-        initTitle();
+        init();
 
-        return hebrewName;
+        return deleteStraightWatchHebrewSentence(hebrewName);
     }
 
     public String getEnglishName()
     {
-        initTitle();
+        init();
 
-        return englishName;
+        return deleteDownloadHebrewSentence(englishName);
     }
 
-    public int getYear() {
+    public int getYear()
+    {
         init();
 
         return year;
     }
 
-    public String getMediaDescription() {
+    public String getMediaDescription()
+    {
         init();
 
         return mediaDescription;
     }
 
-    public int getViews() {
+    public int getViews()
+    {
         init();
 
         return views;
@@ -96,7 +111,8 @@ public class BasicMediaInfo extends AbstractObject {
         return valueOf(vote.getText());
     }
 
-    public Button getAddToMyLibrary() {
+    public Button getAddToMyLibraryButton()
+    {
         init();
 
         return addToMyLibrary;

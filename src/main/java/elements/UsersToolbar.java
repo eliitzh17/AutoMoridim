@@ -35,9 +35,9 @@ public class UsersToolbar extends AbstractObject {
     {
         register = new Button(webElement.findElement(cssSelector(REGISTER_CSS_HREF)));
         forgetPassword = new Button(webElement.findElement(cssSelector(FORGOT_PASSWORD_CASS_HREF)));
-        username = new InputBox(webElement.findElement(id(USER_NAME_ID)));
-        password = new InputBox(webElement.findElement(id(PASSWORD_ID)));
-        login = new Button(webElement.findElement(name(LOGIN_NAME)));
+//        username = new InputBox(webElement.findElement(id(USER_NAME_ID)));
+//        password = new InputBox(webElement.findElement(id(PASSWORD_ID)));
+//        login = new Button(webElement.findElement(name(LOGIN_NAME)));
     }
 
     public void login(String userName, String password)

@@ -6,13 +6,18 @@ import objects.InputBox;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.abstractPages.VideoPage;
+import pages.abstractPages.MediaPage;
+import pages.abstractPages.Page;
+import pages.specificPage.SearchResultPage;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import static pages.abstractPages.MediaPageEnum.valueOf;
 import static utils.Consts.FIRST_ITEM;
 import static utils.Consts.ITEM_IN_LIST_TAG_NAME;
+import static utils.Utils.createInstance;
+import static utils.Utils.getPageCategoryFromUrl;
 
 public class SearchBox extends AbstractObject
 {
@@ -38,7 +43,7 @@ public class SearchBox extends AbstractObject
 
     public void initInstanceResult()
     {
-        instanceResult = new ArrayList<Button>();
+        instanceResult = new ArrayList<>();
 
         for (WebElement element : webElement.findElements(By.tagName(ITEM_IN_LIST_TAG_NAME)))
         {
@@ -46,23 +51,24 @@ public class SearchBox extends AbstractObject
         }
     }
 
-    //    public SearchResultPage search(String str) {
-    //        init();
-    //
-    //        input.write(str);
-    //        searchButton.click();
-    //
-    //        return new SearchResultPage();
-    //    }
+    public SearchResultPage search(String str, WebDriver driver)
+    {
+        init();
 
-    public VideoPage enterFirstResult(String value, WebDriver driver)
+        input.write(str);
+        searchButton.click();
+
+        return new SearchResultPage(driver);
+    }
+
+    public <T extends MediaPage> T enterFirstResult(String value, Page page)
     {
         init();
 
         input.write(value);
         getInstanceResult().get(FIRST_ITEM).click();
 
-        return new VideoPage(driver);
+        return createInstance(valueOf(getPageCategoryFromUrl(page)).getClassName(), page.getDriver());
     }
 
     public List<Button> getInstanceResult()

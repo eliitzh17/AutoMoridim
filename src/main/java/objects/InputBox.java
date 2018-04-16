@@ -17,7 +17,7 @@ public class InputBox extends AbstractObject {
         for (char sequence : str.toCharArray())
         {
             webElement.sendKeys(valueOf(sequence));
-            wait(0.5);
+            wait(0.3);
         }
 
         return this;

@@ -1,9 +1,9 @@
 package pages.mediaPages;
 
 import org.openqa.selenium.WebDriver;
-import pages.abstractPages.MediaPage;
+import pages.abstractPages.Page;
 
-public class MoviesPage extends MediaPage
+public class MoviesPage extends Page
 {
     public MoviesPage(WebDriver driver)
     {

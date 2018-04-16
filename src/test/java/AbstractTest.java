@@ -9,9 +9,8 @@ import pages.PageNavigator;
 
 import static java.lang.Thread.sleep;
 
-@Getter
-public class AbstractTest {
-
+public class AbstractTest
+{
     public static void main(String[] args) {
         AbstractTest a = new AbstractTest();
         a.getURL();

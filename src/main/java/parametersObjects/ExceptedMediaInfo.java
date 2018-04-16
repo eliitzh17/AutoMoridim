@@ -5,7 +5,7 @@ import lombok.Data;
 
 import java.util.List;
 
-@Builder
+@Builder(builderClassName = "ExceptedMediaInfoBuilder")
 @Data
 public class ExceptedMediaInfo
 {

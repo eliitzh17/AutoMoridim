@@ -1,11 +1,14 @@
-import parametersObjects.ExceptedMediaInfo;
 import org.junit.jupiter.api.Test;
+import pages.abstractPages.MediaPageEnum;
 import pages.abstractPages.VideoPage;
 import pages.mediaPages.MoviesPage;
+import parametersObjects.ExceptedMediaInfo;
+
 import java.util.Arrays;
 import java.util.List;
-import static utils.AssertionUtils.assertMovieInformation;
 
+import static pages.abstractPages.MediaPageEnum.Series;
+import static utils.AssertionUtils.assertMovieInformation;
 
 public class CheckMovieDetails extends AbstractTest
 {
@@ -22,12 +25,10 @@ public class CheckMovieDetails extends AbstractTest
     public void test()
     {
         ExceptedMediaInfo exceptedMovieInfo = createExpectedObject();
-
         MoviesPage moviesPage = pageNavigator.navigateToMoviesPage();
         wait(2);
-        VideoPage gameOfThrones = moviesPage.getSearchBox().enterFirstResult(MOVIE_NAME, driver);
+        VideoPage gameOfThrones = moviesPage.getSearchBox().enterFirstResult(MOVIE_NAME, moviesPage);
         assertMovieInformation(gameOfThrones, exceptedMovieInfo);
-        System.getProperty("");
     }
 
     private ExceptedMediaInfo createExpectedObject()
