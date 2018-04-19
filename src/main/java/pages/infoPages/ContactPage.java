@@ -3,9 +3,9 @@ package pages.infoPages;
 import org.openqa.selenium.WebDriver;
 import pages.abstractPages.Page;
 
-public class HowToDownloadPage extends Page
+public class ContactPage extends Page
 {
-    public HowToDownloadPage(WebDriver driver)
+    public ContactPage(WebDriver driver)
     {
         super(driver);
     }

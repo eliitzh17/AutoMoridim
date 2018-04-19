@@ -4,11 +4,9 @@ import objects.AbstractObject;
 import objects.Button;
 import objects.InputBox;
 import org.openqa.selenium.WebElement;
-import pages.infoPages.ForgotPasswordPage;
+import pages.usersPages.ForgotPasswordPage;
 
 import static org.openqa.selenium.By.cssSelector;
-import static org.openqa.selenium.By.id;
-import static org.openqa.selenium.By.name;
 
 public class UsersToolbar extends AbstractObject {
 
@@ -46,14 +44,13 @@ public class UsersToolbar extends AbstractObject {
         this.password.write(password);
         this.login.click();
     }
-
-
-    public ForgotPasswordPage forgotPassword()
-    {
-        forgetPassword.click();
-
-        return new ForgotPasswordPage();
-    }
+//
+//    public ForgotPasswordPage forgotPassword()
+//    {
+//        forgetPassword.click();
+//
+//        return new ForgotPasswordPage();
+//    }
 
     public Button getRegister() {
         init();

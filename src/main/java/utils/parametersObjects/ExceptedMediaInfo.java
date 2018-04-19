@@ -1,4 +1,4 @@
-package parametersObjects;
+package utils.parametersObjects;
 
 import lombok.Builder;
 import lombok.Data;

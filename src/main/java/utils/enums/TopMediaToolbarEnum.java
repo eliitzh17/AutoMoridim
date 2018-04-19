@@ -1,6 +1,10 @@
-package enums;
+package utils.enums;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
+@AllArgsConstructor
+@Getter
 public enum TopMediaToolbarEnum {
 
     MAIN("ראשי", 0),
@@ -13,18 +17,4 @@ public enum TopMediaToolbarEnum {
 
     private String name;
     private int index;
-
-    TopMediaToolbarEnum(String hebrewName, int location) {
-        this.name = hebrewName;
-        this.index = location;
-    }
-
-    public String getName()
-    {
-        return name;
-    }
-
-    public int getIndex() {
-        return index;
-    }
 }

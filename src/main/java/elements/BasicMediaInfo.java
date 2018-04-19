@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import static java.lang.Integer.valueOf;
 import static org.openqa.selenium.By.tagName;
 import static utils.Utils.*;
-import static utils.Utils.deleteStraightWatchHebrewSentence;
+import static utils.Utils.deleteDirectWatchHebrewSentence;
 
 public class BasicMediaInfo extends AbstractObject
 {
@@ -66,7 +66,7 @@ public class BasicMediaInfo extends AbstractObject
     {
         init();
 
-        return deleteStraightWatchHebrewSentence(hebrewName);
+        return deleteDirectWatchHebrewSentence(hebrewName);
     }
 
     public String getEnglishName()

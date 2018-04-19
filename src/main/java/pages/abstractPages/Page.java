@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 @Getter
-public abstract class Page
+public class Page
 {
     protected WebDriver driver;
 
@@ -17,6 +17,7 @@ public abstract class Page
     }
 
     private SearchBox searchBox;
+//    private BottomMediaToolbarEnum
 
     public void init()
     {
@@ -28,5 +29,10 @@ public abstract class Page
         init();
 
         return this.searchBox;
+    }
+
+    public static String getUrl()
+    {
+        return null;
     }
 }

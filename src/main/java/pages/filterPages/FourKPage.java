@@ -1,4 +1,4 @@
-package pages.mediaPages;
+package pages.filterPages;
 
 public class FourKPage {
 }

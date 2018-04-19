@@ -7,17 +7,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.abstractPages.MediaPage;
-import pages.abstractPages.Page;
 import pages.specificPage.SearchResultPage;
+import utils.enums.PagesUrlsEnum;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static pages.abstractPages.MediaPageEnum.valueOf;
 import static utils.Consts.FIRST_ITEM;
 import static utils.Consts.ITEM_IN_LIST_TAG_NAME;
-import static utils.Utils.createInstance;
+import static utils.Utils.createPageInstance;
 import static utils.Utils.getPageCategoryFromUrl;
+import static utils.enums.PagesUrlsEnum.getEnumBySpecificPageName;
 
 public class SearchBox extends AbstractObject
 {
@@ -61,14 +61,14 @@ public class SearchBox extends AbstractObject
         return new SearchResultPage(driver);
     }
 
-    public <T extends MediaPage> T enterFirstResult(String value, Page page)
+    public <T extends MediaPage> T enterFirstResult(String value, WebDriver driver)
     {
         init();
 
         input.write(value);
         getInstanceResult().get(FIRST_ITEM).click();
 
-        return createInstance(valueOf(getPageCategoryFromUrl(page)).getClassName(), page.getDriver());
+        return createPageInstance(getEnumBySpecificPageName(getPageCategoryFromUrl(driver)).getClassName(), driver);
     }
 
     public List<Button> getInstanceResult()

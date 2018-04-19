@@ -1,7 +1,7 @@
 package elements;
 
-import enums.BottomMediaToolbarEnum;
-import enums.TopMediaToolbarEnum;
+import utils.enums.BottomMediaToolbarEnum;
+import utils.enums.TopMediaToolbarEnum;
 import objects.AbstractObject;
 import objects.Button;
 import org.openqa.selenium.By;

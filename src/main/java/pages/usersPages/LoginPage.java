@@ -1,11 +1,11 @@
-package pages.mediaPages;
+package pages.usersPages;
 
 import org.openqa.selenium.WebDriver;
 import pages.abstractPages.Page;
 
-public class MoviesPage extends Page
+public class LoginPage extends Page
 {
-    public MoviesPage(WebDriver driver)
+    public LoginPage(WebDriver driver)
     {
         super(driver);
     }

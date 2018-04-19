@@ -1,25 +1,25 @@
 package utils;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import pages.abstractPages.Page;
-
 import static java.lang.Class.forName;
+import static java.lang.Thread.sleep;
 import static utils.Consts.DOWNLOAD_CHAR_NUMBER;
 
 public class Utils
 {
-
     public static String deleteDownloadHebrewSentence(String str)
     {
         return str.substring(0, str.length() - (DOWNLOAD_CHAR_NUMBER + 1));
     }
     
-    public static String deleteStraightWatchHebrewSentence(String str)
+    public static String deleteDirectWatchHebrewSentence(String str)
     {
         return str.substring(0, 9);
     }
 
-    public static <T extends Page> T createInstance(String className, WebDriver driver)
+    public static <T extends Page> T createPageInstance(String className, WebDriver driver)
     {
         T newPage = null;
         try
@@ -33,8 +33,23 @@ public class Utils
         return newPage;
     }
 
-    public static String getPageCategoryFromUrl(Page page)
+    public static void closeLinksPopup(WebDriver driver)
     {
-        return page.getDriver().getCurrentUrl().split("/")[3];
+        if (driver.findElement(By.id("boxBg")).isDisplayed())
+        {
+            driver.findElement(By.className("close")).click();
+            try
+            {
+                sleep(2000);
+            } catch (InterruptedException e)
+            {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static String getPageCategoryFromUrl(WebDriver driver)
+    {
+        return driver.getCurrentUrl().split("/")[3];
     }
 }
