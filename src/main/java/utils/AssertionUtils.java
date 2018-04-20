@@ -12,9 +12,13 @@ public class AssertionUtils
     {
         assertTrue(movieSite.getBasicMediaInfo().getHebrewName().contains(exceptedMovieInfo.getHebrewName()));
         assertEquals(movieSite.getBasicMediaInfo().getEnglishName(), exceptedMovieInfo.getEnglishName());
-        assertTrue(movieSite.getBasicMediaInfo().getMediaDescription().equals(exceptedMovieInfo.getDescription()));
-        assertEquals(movieSite.getBasicMediaInfo().getYear(), exceptedMovieInfo.getCreationYear());
-        assertTrue(movieSite.getBasicMediaInfo().getViews() > exceptedMovieInfo.getViews());
+        assertEquals(movieSite.getYearCreation(), exceptedMovieInfo.getCreationYear());
         assertTrue(movieSite.getCategories().equals(exceptedMovieInfo.getGenres()));
+        assertEquals(movieSite.getVideoLength().getMinuteAmount(), exceptedMovieInfo.getMediaLength());
+        assertEquals(movieSite.getLastActivity(),
+                     exceptedMovieInfo.getLastActivity().getSiteSyntax(exceptedMovieInfo.getLastActivityNumber()));
+        assertEquals(movieSite.getBasicMediaInfo().getMediaDescription(), exceptedMovieInfo.getDescription());
+        assertTrue(movieSite.getBasicMediaInfo().getViews() >= exceptedMovieInfo.getViews());
+        assertEquals(movieSite.getVoteNumber(), exceptedMovieInfo.getVotes());
     }
 }

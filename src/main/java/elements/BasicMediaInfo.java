@@ -61,7 +61,6 @@ public class BasicMediaInfo extends AbstractObject
         this.englishName = title.findElement(tagName(ENGLISH_NAME_TAG_NAME)).getText();
     }
 
-
     public String getHebrewName()
     {
         init();

@@ -8,6 +8,7 @@ import pages.infoPages.ContactPage;
 import pages.infoPages.DMCAPage;
 import pages.usersPages.ForgotPasswordPage;
 import pages.usersPages.LoginPage;
+import pages.usersPages.RegisterPage;
 import pages.usersPages.RequestsPage;
 
 import java.util.HashMap;
@@ -27,12 +28,13 @@ public enum PagesUrlsEnum
     PROGRAM("תוכנות", HTML_URL_ENDS, ProgramPage.class.getName(), "Software"),
     MUSIC("מוזיקה", HTML_URL_ENDS, MusicPage.class.getName(), "Music"),
     REQUESTS("requests", "", RequestsPage.class.getName(), ""),
-    REGISTER("register", "",RequestsPage.class.getName(), ""),
+    REGISTER("register", "", RegisterPage.class.getName(), ""),
     FORGOT_PASSWORD("forgotPass", "", ForgotPasswordPage.class.getName(), ""),
     LOGIN("login", "", LoginPage.class.getName(), ""),
     DMCA("DMCA", HTML_URL_ENDS, DMCAPage.class.getName(), ""),
     CONTACT("יצירת-קשר", HTML_URL_ENDS, ContactPage.class.getName(), "");
 
+    private static final Map<String, PagesUrlsEnum> map = new HashMap<>();
     private String url;
     private String urlEnds;
     @Getter private String className;
@@ -42,19 +44,6 @@ public enum PagesUrlsEnum
     {
         return url.equals(MAIN_PAGE_URL) ? MAIN_PAGE_URL : MAIN_PAGE_URL.concat(url).concat(urlEnds);
     }
-//
-//    public static PagesUrlsEnum getContainEnum(String str)
-//    {
-//        for (PagesUrlsEnum specificEnum : values())
-//        {
-//            if (specificEnum.name().contains(str) || str.contains(specificEnum.name()))
-//                return specificEnum;
-//        }
-//
-//        return null;
-//    }
-
-    private static final Map<String, PagesUrlsEnum> map = new HashMap<>();
 
     public static PagesUrlsEnum getEnumBySpecificPageName(String specificPageName)
     {

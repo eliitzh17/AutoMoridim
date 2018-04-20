@@ -16,6 +16,8 @@ public class MediaPage extends Page
         super(driver);
     }
 
+
+
     protected BasicMediaInfo basicMediaInfo;
 
     public void init()
