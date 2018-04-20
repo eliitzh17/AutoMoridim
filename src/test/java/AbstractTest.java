@@ -20,7 +20,7 @@ public class AbstractTest
     @BeforeEach
     public void settings() throws InterruptedException
     {
-        setProperty("webdriver.chrome.driver", "c:\\Users\\Asor\\Downloads\\Project\\Resource\\chromedriver.exe");
+        setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(MAIN_PAGE_URL);
