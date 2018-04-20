@@ -18,7 +18,7 @@ public class AbstractTest
     protected WebDriver driver;
 
     @BeforeEach
-    public void settings() throws InterruptedException
+    public void settings() 
     {
         setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
