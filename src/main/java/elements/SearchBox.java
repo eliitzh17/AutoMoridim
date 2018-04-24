@@ -1,5 +1,6 @@
 package elements;
 
+import lombok.Getter;
 import objects.AbstractObject;
 import objects.Button;
 import objects.InputBox;
@@ -23,22 +24,16 @@ public class SearchBox extends AbstractObject
 {
     public final static String SEARCH_CLASS_ID = "topSearch";
 
-    private final static String SEARCH_INPUT_CLASS_NAME = "searchInput";
-    private final static String SEARCH_BUTTON_TAG_NAME = "button";
+    @Getter(lazy = true)
+    private final InputBox input = new InputBox(webElement.findElement(By.className("searchInput")));
+    @Getter(lazy = true)
+    private final Button searchButton = new Button(webElement.findElement(By.tagName("button")));
 
-    private InputBox input;
-    private Button searchButton;
     private List<Button> instanceResult;
 
     public SearchBox(WebElement webElement)
     {
         super(webElement);
-    }
-
-    public void init()
-    {
-        searchButton = new Button(webElement.findElement(By.tagName(SEARCH_BUTTON_TAG_NAME)));
-        input = new InputBox(webElement.findElement(By.className(SEARCH_INPUT_CLASS_NAME)));
     }
 
     public void initInstanceResult()
@@ -53,19 +48,15 @@ public class SearchBox extends AbstractObject
 
     public SearchResultPage search(String str, WebDriver driver)
     {
-        init();
-
-        input.write(str);
-        searchButton.click();
+        getInput().write(str);
+        getSearchButton().click();
 
         return new SearchResultPage(driver);
     }
 
     public <T extends MediaPage> T enterFirstResult(String value, WebDriver driver)
     {
-        init();
-
-        input.write(value);
+        getInput().write(value);
         getInstanceResult().get(FIRST_ITEM).click();
 
         return createPageInstance(getEnumBySpecificPageName(getPageCategoryFromUrl(driver)).getClassName(), driver);
@@ -77,6 +68,4 @@ public class SearchBox extends AbstractObject
 
         return instanceResult;
     }
-
-
 }

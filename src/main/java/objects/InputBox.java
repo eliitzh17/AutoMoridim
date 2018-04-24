@@ -34,4 +34,9 @@ public class InputBox extends AbstractObject {
     public void focus() {
         webElement.sendKeys("");
     }
+
+    public String getText()
+    {
+        return webElement.getText();
+    }
 }

@@ -1,10 +1,13 @@
 package pages.abstractPages;
 
-
 import elements.SearchBox;
+import elements.UsersToolbar;
 import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import static elements.SearchBox.SEARCH_CLASS_ID;
+import static elements.UsersToolbar.USERS_TOOLBAR_ID;
 
 @Getter
 public class Page
@@ -16,23 +19,8 @@ public class Page
         this.driver = driver;
     }
 
-    private SearchBox searchBox;
-//    private BottomMediaToolbarEnum
-
-    public void init()
-    {
-        searchBox = new SearchBox(driver.findElement(By.id(SearchBox.SEARCH_CLASS_ID)));
-    }
-
-    public SearchBox getSearchBox()
-    {
-        init();
-
-        return this.searchBox;
-    }
-
-    public static String getUrl()
-    {
-        return null;
-    }
+    @Getter(lazy = true)
+    private final SearchBox searchBox = new SearchBox(driver.findElement(By.id(SEARCH_CLASS_ID)));
+    @Getter(lazy = true)
+    private final UsersToolbar usersToolbar = new UsersToolbar(driver.findElement(By.id(USERS_TOOLBAR_ID)));
 }

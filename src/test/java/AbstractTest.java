@@ -18,7 +18,7 @@ public class AbstractTest
     protected WebDriver driver;
 
     @BeforeEach
-    public void settings() 
+    public void settings()
     {
         setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -32,6 +32,17 @@ public class AbstractTest
         driver.get(page.getUrl());
 
         return createPageInstance(page.getClassName(), driver);
+    }
+
+    public static void sleep(double second)
+    {
+        try
+        {
+            Thread.sleep((long) (second * 1000));
+        } catch (InterruptedException e)
+        {
+            e.printStackTrace();
+        }
     }
 
     @AfterEach

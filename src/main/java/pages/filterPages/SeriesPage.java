@@ -9,6 +9,4 @@ public class SeriesPage extends VideoPage
     {
         super(driver);
     }
-
-
 }

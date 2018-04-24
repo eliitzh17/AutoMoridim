@@ -8,7 +8,7 @@ import static junit.framework.Assert.assertTrue;
 
 public class AssertionUtils
 {
-    public static void assertMovieInformation(VideoPage movieSite, ExceptedMediaInfo exceptedMovieInfo)
+    public static void assertVideoInformation(VideoPage movieSite, ExceptedMediaInfo exceptedMovieInfo)
     {
         assertTrue(movieSite.getBasicMediaInfo().getHebrewName().contains(exceptedMovieInfo.getHebrewName()));
         assertEquals(movieSite.getBasicMediaInfo().getEnglishName(), exceptedMovieInfo.getEnglishName());
@@ -19,6 +19,6 @@ public class AssertionUtils
                      exceptedMovieInfo.getLastActivity().getSiteSyntax(exceptedMovieInfo.getLastActivityNumber()));
         assertEquals(movieSite.getBasicMediaInfo().getMediaDescription(), exceptedMovieInfo.getDescription());
         assertTrue(movieSite.getBasicMediaInfo().getViews() >= exceptedMovieInfo.getViews());
-        assertEquals(movieSite.getVoteNumber(), exceptedMovieInfo.getVotes());
+        assertTrue(Integer.valueOf(movieSite.getVoteNumber().getText()) >= exceptedMovieInfo.getVotes());
     }
 }

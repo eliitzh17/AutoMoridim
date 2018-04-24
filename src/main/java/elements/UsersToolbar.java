@@ -1,84 +1,58 @@
 package elements;
 
+import lombok.Getter;
 import objects.AbstractObject;
 import objects.Button;
 import objects.InputBox;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import pages.abstractPages.Page;
 import pages.usersPages.ForgotPasswordPage;
+import pages.usersPages.LoginPage;
+import pages.usersPages.MemberPage;
 
 import static org.openqa.selenium.By.cssSelector;
+import static org.openqa.selenium.By.name;
 
-public class UsersToolbar extends AbstractObject {
-
+public class UsersToolbar extends AbstractObject
+{
     public static final String USERS_TOOLBAR_ID = "topBar";
 
-    private static final String REGISTER_CSS_HREF = "register";
-    private static final String FORGOT_PASSWORD_CASS_HREF = "forgotPass";
-    private static final String USER_NAME_ID = "head_username";
-    private static final String PASSWORD_ID = "head_password";
-    private static final String LOGIN_NAME = "login";
-
-    private Button register;
-    private Button forgetPassword;
-    private InputBox username;
-    private InputBox password;
-    private Button login;
+    @Getter(lazy = true)
+    private final Button register = new Button(webElement.findElement(cssSelector("[href='register']")));
+    @Getter(lazy = true)
+    private final Button forgetPassword = new Button(webElement.findElement(cssSelector("[href='forgotPass']")));
+    @Getter(lazy = true)
+    private final InputBox username = new InputBox(webElement.findElement(By.id("head_username")));
+    @Getter(lazy = true)
+    private final InputBox password = new InputBox(webElement.findElement(By.id("head_password")));
+    @Getter(lazy = true)
+    private final Button login = new Button(webElement.findElement(name("login")));
 
     public UsersToolbar(WebElement webElement)
     {
         super(webElement);
     }
 
-    public void init()
+    private void fillDetails(String userName, String password)
     {
-        register = new Button(webElement.findElement(cssSelector(REGISTER_CSS_HREF)));
-        forgetPassword = new Button(webElement.findElement(cssSelector(FORGOT_PASSWORD_CASS_HREF)));
-//        username = new InputBox(webElement.findElement(id(USER_NAME_ID)));
-//        password = new InputBox(webElement.findElement(id(PASSWORD_ID)));
-//        login = new Button(webElement.findElement(name(LOGIN_NAME)));
+        getUsername().write(userName);
+        getPassword().write(password);
+        getLogin().click();
     }
 
-    public void login(String userName, String password)
+    public MemberPage login(String userName, String password, WebDriver driver)
     {
-        this.username.write(userName);
-        this.password.write(password);
-        this.login.click();
-    }
-//
-//    public ForgotPasswordPage forgotPassword()
-//    {
-//        forgetPassword.click();
-//
-//        return new ForgotPasswordPage();
-//    }
+        fillDetails(userName, password);
 
-    public Button getRegister() {
-        init();
-
-        return register;
+        return new MemberPage(driver);
     }
 
-    public Button getForgetPassword() {
-        init();
+    public LoginPage loginWrongDetails(String userName, String password, WebDriver driver)
+    {
+        fillDetails(userName, password);
 
-        return forgetPassword;
-    }
-
-    public InputBox getUsername() {
-        init();
-
-        return username;
-    }
-
-    public InputBox getPassword() {
-        init();
-
-        return password;
-    }
-
-    public Button getLogin() {
-        init();
-
-        return login;
+        return new LoginPage(driver);
     }
 }

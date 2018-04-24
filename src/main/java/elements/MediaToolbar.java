@@ -1,5 +1,6 @@
 package elements;
 
+import lombok.Getter;
 import utils.enums.BottomMediaToolbarEnum;
 import utils.enums.TopMediaToolbarEnum;
 import objects.AbstractObject;
@@ -10,39 +11,27 @@ import org.openqa.selenium.WebElement;
 /**
  * This class represent the toolbar that give us kind of map in the site.
  */
-public class MediaToolbar extends AbstractObject {
-
+public class MediaToolbar extends AbstractObject
+{
     public final static String MEDIA_TOOLBAR_ID = "header";
 
-    private final static String TOP_TOOLBAR_ID = "menu";
-    private final static String BOTTOM_ID = "bottomMenu";
+    @Getter(lazy = true)
+    private final Toolbar topToolbar = new Toolbar(webElement.findElement(By.id("menu")));
+    @Getter(lazy = true)
+    private final Toolbar bottomToolbar = new Toolbar(webElement.findElement(By.id("bottomMenu")));
 
-    private Toolbar topToolbar;
-    private Toolbar bottomToolbar;
-
-    public MediaToolbar(WebElement webElement) {
+    public MediaToolbar(WebElement webElement)
+    {
         super(webElement);
-    }
-
-    public void init() {
-
-        topToolbar = new Toolbar(webElement.findElement(By.id(TOP_TOOLBAR_ID)));
-        bottomToolbar = new Toolbar(webElement.findElement(By.id(BOTTOM_ID)));
     }
 
     public Button getButtonOf(TopMediaToolbarEnum mediaButton)
     {
-        init();
-
-        return topToolbar.get(mediaButton.getIndex());
+        return getTopToolbar().get(mediaButton.getIndex());
     }
 
     public Button getButtonOf(BottomMediaToolbarEnum mediaButton)
     {
-        init();
-
-        return bottomToolbar.get(mediaButton.getIndex());
+        return getBottomToolbar().get(mediaButton.getIndex());
     }
-
-
 }
