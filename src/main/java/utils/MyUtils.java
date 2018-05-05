@@ -2,18 +2,21 @@ package utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import pages.abstractPages.Page;
+
 import static java.lang.Class.forName;
 import static java.lang.Thread.sleep;
 import static utils.Consts.DOWNLOAD_CHAR_NUMBER;
 
-public class Utils
+public class MyUtils
 {
     public static String deleteDownloadHebrewSentence(String str)
     {
         return str.substring(0, str.length() - (DOWNLOAD_CHAR_NUMBER + 1));
     }
-    
+
     public static String deleteDirectWatchHebrewSentence(String str)
     {
         return str.substring(0, 9);
@@ -51,5 +54,10 @@ public class Utils
     public static String getPageCategoryFromUrl(WebDriver driver)
     {
         return driver.getCurrentUrl().split("/")[3];
+    }
+
+    public static void hover(WebDriver driver, WebElement webElement)
+    {
+        new Actions(driver).moveToElement(webElement).build().perform();
     }
 }

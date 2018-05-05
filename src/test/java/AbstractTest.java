@@ -3,19 +3,21 @@ import lombok.Getter;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import pages.abstractPages.Page;
 import utils.enums.PagesUrlsEnum;
 
 import static java.lang.System.setProperty;
 import static utils.Consts.MAIN_PAGE_URL;
-import static utils.Utils.closeLinksPopup;
-import static utils.Utils.createPageInstance;
+import static utils.MyUtils.closeLinksPopup;
+import static utils.MyUtils.createPageInstance;
 
 @Getter(AccessLevel.PUBLIC)
 public class AbstractTest
 {
-    protected WebDriver driver;
+    private WebDriver driver;
 
     @BeforeEach
     public void settings()
@@ -43,6 +45,11 @@ public class AbstractTest
         {
             e.printStackTrace();
         }
+    }
+
+    public void hover(WebElement webElement)
+    {
+        new Actions(getDriver()).moveToElement(webElement).build().perform();
     }
 
     @AfterEach

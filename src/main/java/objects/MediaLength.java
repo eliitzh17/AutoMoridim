@@ -1,4 +1,4 @@
-package elements;
+package objects;
 
 import lombok.Getter;
 import org.openqa.selenium.WebDriver;
@@ -8,8 +8,8 @@ import static java.lang.Integer.parseInt;
 
 public class MediaLength extends Label
 {
-    @Getter(lazy = true) private final String hours = webElement.getText().split(":")[0];
-    @Getter(lazy = true) private final String minute = webElement.getText().split(":")[1];
+    @Getter(lazy = true) private final String hours = getWebElement().getText().split(":")[0];
+    @Getter(lazy = true) private final String minute = getWebElement().getText().split(":")[1];
 
     public MediaLength(WebElement element)
     {

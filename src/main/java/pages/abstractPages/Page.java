@@ -12,15 +12,16 @@ import static elements.UsersToolbar.USERS_TOOLBAR_ID;
 @Getter
 public class Page
 {
-    protected WebDriver driver;
+    @Getter
+    private WebDriver driver;
+
+    @Getter(lazy = true)
+    private final SearchBox topSearch = new SearchBox(getDriver().findElement(By.id(SEARCH_CLASS_ID)));
+    @Getter(lazy = true)
+    private final UsersToolbar usersToolbar = new UsersToolbar(getDriver().findElement(By.id(USERS_TOOLBAR_ID)));
 
     public Page(WebDriver driver)
     {
         this.driver = driver;
     }
-
-    @Getter(lazy = true)
-    private final SearchBox searchBox = new SearchBox(driver.findElement(By.id(SEARCH_CLASS_ID)));
-    @Getter(lazy = true)
-    private final UsersToolbar usersToolbar = new UsersToolbar(driver.findElement(By.id(USERS_TOOLBAR_ID)));
 }

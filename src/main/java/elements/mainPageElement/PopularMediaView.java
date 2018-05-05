@@ -1,4 +1,4 @@
-package elements;
+package elements.mainPageElement;
 
 public class PopularMediaView {
 }

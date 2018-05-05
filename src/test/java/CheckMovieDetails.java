@@ -10,6 +10,11 @@ public class CheckMovieDetails extends AbstractTest
     {
         MainPage page = navigateTo(MAIN);
 
-        page.getCategorySearch().getSearchButton().click();
+        System.out.println(page.getCategoriesSearch().getSearchResult().size());
+        page.getCategoriesSearch().getLoadMoreButton().click();
+        System.out.println(page.getCategoriesSearch().getSearchResult().size());
+
+        page.getRecommend().getRecommendList().get(1).navigate(getDriver());
+
     }
 }

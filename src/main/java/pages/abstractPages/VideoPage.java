@@ -1,7 +1,7 @@
 package pages.abstractPages;
 
-import elements.Label;
-import elements.MediaLength;
+import objects.Label;
+import objects.MediaLength;
 import lombok.Getter;
 import objects.Button;
 import org.openqa.selenium.By;
@@ -21,15 +21,15 @@ public class VideoPage extends MediaPage
     @Getter(lazy = true)
     private final List<String> categories = initCategories();
     @Getter(lazy = true)
-    private final Label yearCreation = new Label("יציאה", driver);
+    private final Label yearCreation = new Label("יציאה", getDriver());
     @Getter(lazy = true)
-    private final Label lastActivity = new Label(driver.findElement(By.xpath(".//div[1]/p/b")));
+    private final Label lastActivity = new Label(getDriver().findElement(By.xpath(".//div[1]/p/b")));
     @Getter(lazy = true)
-    private final MediaLength videoLength = new MediaLength("אורך", driver);
+    private final MediaLength videoLength = new MediaLength("אורך", getDriver());
     @Getter(lazy = true)
-    private final Button imdbRating = new Button(driver.findElement(By.id("imdbRating")));
+    private final Button imdbRating = new Button(getDriver().findElement(By.id("imdbRating")));
     @Getter(lazy = true)
-    private final Label voteNumber = new Label("צפיות", driver);
+    private final Label voteNumber = new Label("צפיות", getDriver());
 
     public VideoPage(WebDriver driver)
     {
@@ -40,7 +40,7 @@ public class VideoPage extends MediaPage
     {
         List<String> tempCategories = new ArrayList<>();
 
-        for (WebElement element : driver.findElement(
+        for (WebElement element : getDriver().findElement(
                 By.cssSelector("li[title$='" + CATEGORIES_END_VALUE_CSS_SELECTOR + "']")).findElements(
                 By.tagName(CATEGORY_TAG_NAME)))
         {

@@ -9,15 +9,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.abstractPages.MediaPage;
 import pages.specificPage.SearchResultPage;
-import utils.enums.PagesUrlsEnum;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static utils.Consts.FIRST_ITEM;
 import static utils.Consts.ITEM_IN_LIST_TAG_NAME;
-import static utils.Utils.createPageInstance;
-import static utils.Utils.getPageCategoryFromUrl;
+import static utils.MyUtils.createPageInstance;
+import static utils.MyUtils.getPageCategoryFromUrl;
 import static utils.enums.PagesUrlsEnum.getEnumBySpecificPageName;
 
 public class SearchBox extends AbstractObject

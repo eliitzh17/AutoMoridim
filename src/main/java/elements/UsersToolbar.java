@@ -7,8 +7,6 @@ import objects.InputBox;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.abstractPages.Page;
-import pages.usersPages.ForgotPasswordPage;
 import pages.usersPages.LoginPage;
 import pages.usersPages.MemberPage;
 
@@ -35,7 +33,7 @@ public class UsersToolbar extends AbstractObject
         super(webElement);
     }
 
-    private void fillDetails(String userName, String password)
+    private void fillDetailsAndClick(String userName, String password)
     {
         getUsername().write(userName);
         getPassword().write(password);
@@ -44,14 +42,14 @@ public class UsersToolbar extends AbstractObject
 
     public MemberPage login(String userName, String password, WebDriver driver)
     {
-        fillDetails(userName, password);
+        fillDetailsAndClick(userName, password);
 
         return new MemberPage(driver);
     }
 
     public LoginPage loginWrongDetails(String userName, String password, WebDriver driver)
     {
-        fillDetails(userName, password);
+        fillDetailsAndClick(userName, password);
 
         return new LoginPage(driver);
     }

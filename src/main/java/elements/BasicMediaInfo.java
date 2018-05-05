@@ -8,8 +8,8 @@ import org.openqa.selenium.support.FindBy;
 
 import static java.lang.Integer.valueOf;
 import static org.openqa.selenium.By.tagName;
-import static utils.Utils.*;
-import static utils.Utils.deleteDirectWatchHebrewSentence;
+import static utils.MyUtils.*;
+import static utils.MyUtils.deleteDirectWatchHebrewSentence;
 
 public class BasicMediaInfo extends AbstractObject
 {

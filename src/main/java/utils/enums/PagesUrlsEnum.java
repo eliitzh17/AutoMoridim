@@ -2,10 +2,11 @@ package utils.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import pages.abstractPages.VideoPage;
 import pages.filterPages.*;
 import pages.infoPages.ContactPage;
 import pages.infoPages.DMCAPage;
+import pages.specificPage.GamePage;
+import pages.specificPage.MoviePage;
 import pages.usersPages.ForgotPasswordPage;
 import pages.usersPages.LoginPage;
 import pages.usersPages.RegisterPage;
@@ -21,10 +22,10 @@ import static utils.Consts.MAIN_PAGE_URL;
 public enum PagesUrlsEnum
 {
     MAIN(MAIN_PAGE_URL, "", MainPage.class.getName(), ""),
-    MOVIES("סרטים", HTML_URL_ENDS, MoviesPage.class.getName(), "Movie"),
+    MOVIES("סרטים", HTML_URL_ENDS, MoviePage.class.getName(), "Movie"),
     SERIES("סדרות", HTML_URL_ENDS, SeriesPage.class.getName(), "Series"),
 //    FOUR_K_MOVIES("סרטי 4K"),
-    GAMES("משחקים", HTML_URL_ENDS, GamesPage.class.getName(), "Game"),
+    GAMES("משחקים", HTML_URL_ENDS, GamePage.class.getName(), "Game"),
     PROGRAM("תוכנות", HTML_URL_ENDS, ProgramPage.class.getName(), "Software"),
     MUSIC("מוזיקה", HTML_URL_ENDS, MusicPage.class.getName(), "Music"),
     REQUESTS("requests", "", RequestsPage.class.getName(), ""),
