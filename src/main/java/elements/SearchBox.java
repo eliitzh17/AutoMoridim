@@ -24,9 +24,9 @@ public class SearchBox extends AbstractObject
     public final static String SEARCH_CLASS_ID = "topSearch";
 
     @Getter(lazy = true)
-    private final InputBox input = new InputBox(webElement.findElement(By.className("searchInput")));
+    private final InputBox input = new InputBox(getWebElement().findElement(By.className("searchInput")));
     @Getter(lazy = true)
-    private final Button searchButton = new Button(webElement.findElement(By.tagName("button")));
+    private final Button searchButton = new Button(getWebElement().findElement(By.tagName("button")));
 
     private List<Button> instanceResult;
 
@@ -39,7 +39,7 @@ public class SearchBox extends AbstractObject
     {
         instanceResult = new ArrayList<>();
 
-        for (WebElement element : webElement.findElements(By.tagName(ITEM_IN_LIST_TAG_NAME)))
+        for (WebElement element : getWebElement().findElements(By.tagName(ITEM_IN_LIST_TAG_NAME)))
         {
             instanceResult.add(new Button(element));
         }

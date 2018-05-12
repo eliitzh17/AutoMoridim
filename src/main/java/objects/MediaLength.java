@@ -21,7 +21,7 @@ public class MediaLength extends Label
         super(liTitleCssSelector, driver);
     }
 
-    public int getMinuteAmount()
+    public Integer getMinuteAmount()
     {
         return parseInt(getMinute()) + (parseInt(getHours()) * 60);
     }

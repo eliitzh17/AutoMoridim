@@ -1,12 +1,14 @@
 package objects;
 
+import lombok.Getter;
 import org.openqa.selenium.WebElement;
 
 import static java.lang.Thread.sleep;
 
 public class AbstractObject
 {
-    protected WebElement webElement;
+    @Getter
+    private WebElement webElement;
 
     public void wait(double s)
     {

@@ -12,12 +12,12 @@ public class ExceptedMediaInfo
 {
     private String hebrewName;
     private String englishName;
-    private int creationYear;
+    private Integer creationYear;
     private List<String> genres;
-    private int mediaLength;
+    private Integer mediaLength;
     private LastActivityEnum lastActivity;
-    private int lastActivityNumber;
+    private Integer lastActivityNumber;
     private String description;
-    private int views;
-    private int votes;
+    private Integer views;
+    private Integer votes;
 }

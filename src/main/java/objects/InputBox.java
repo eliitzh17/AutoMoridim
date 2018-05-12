@@ -7,7 +7,6 @@ import static java.lang.String.valueOf;
 
 public class InputBox extends AbstractObject {
 
-
     public InputBox(WebElement webElement) {
         super(webElement);
     }
@@ -16,8 +15,8 @@ public class InputBox extends AbstractObject {
     {
         for (char sequence : str.toCharArray())
         {
-            webElement.sendKeys(valueOf(sequence));
-            wait(0.6);
+            getWebElement().sendKeys(valueOf(sequence));
+            wait(0.8);
         }
 
         return this;
@@ -25,18 +24,18 @@ public class InputBox extends AbstractObject {
 
     public InputBox delete()
     {
-        webElement.sendKeys(Keys.chord(Keys.CONTROL, "a"));
-        webElement.sendKeys(Keys.BACK_SPACE);
+        getWebElement().sendKeys(Keys.chord(Keys.CONTROL, "a"));
+        getWebElement().sendKeys(Keys.BACK_SPACE);
 
         return this;
     }
 
     public void focus() {
-        webElement.sendKeys("");
+        getWebElement().sendKeys("");
     }
 
     public String getText()
     {
-        return webElement.getText();
+        return getWebElement().getText();
     }
 }

@@ -9,10 +9,10 @@ public class Button extends AbstractObject
         super(webElement);
     }
 
-    public void click() { webElement.click();}
+    public void click() { getWebElement().click();}
 
     public String getText()
     {
-        return webElement.getText();
+        return getWebElement().getText();
     }
 }

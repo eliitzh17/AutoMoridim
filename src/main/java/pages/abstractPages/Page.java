@@ -9,8 +9,7 @@ import org.openqa.selenium.WebDriver;
 import static elements.SearchBox.SEARCH_CLASS_ID;
 import static elements.UsersToolbar.USERS_TOOLBAR_ID;
 
-@Getter
-public class Page
+public abstract class Page
 {
     @Getter
     private WebDriver driver;

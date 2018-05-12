@@ -18,15 +18,15 @@ public class UsersToolbar extends AbstractObject
     public static final String USERS_TOOLBAR_ID = "topBar";
 
     @Getter(lazy = true)
-    private final Button register = new Button(webElement.findElement(cssSelector("[href='register']")));
+    private final Button register = new Button(getWebElement().findElement(cssSelector("[href='register']")));
     @Getter(lazy = true)
-    private final Button forgetPassword = new Button(webElement.findElement(cssSelector("[href='forgotPass']")));
+    private final Button forgetPassword = new Button(getWebElement().findElement(cssSelector("[href='forgotPass']")));
     @Getter(lazy = true)
-    private final InputBox username = new InputBox(webElement.findElement(By.id("head_username")));
+    private final InputBox username = new InputBox(getWebElement().findElement(By.id("head_username")));
     @Getter(lazy = true)
-    private final InputBox password = new InputBox(webElement.findElement(By.id("head_password")));
+    private final InputBox password = new InputBox(getWebElement().findElement(By.id("head_password")));
     @Getter(lazy = true)
-    private final Button login = new Button(webElement.findElement(name("login")));
+    private final Button login = new Button(getWebElement().findElement(name("login")));
 
     public UsersToolbar(WebElement webElement)
     {

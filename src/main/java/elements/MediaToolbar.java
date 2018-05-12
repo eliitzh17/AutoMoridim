@@ -16,9 +16,9 @@ public class MediaToolbar extends AbstractObject
     public final static String MEDIA_TOOLBAR_ID = "header";
 
     @Getter(lazy = true)
-    private final Toolbar topToolbar = new Toolbar(webElement.findElement(By.id("menu")));
+    private final Toolbar topToolbar = new Toolbar(getWebElement().findElement(By.id("menu")));
     @Getter(lazy = true)
-    private final Toolbar bottomToolbar = new Toolbar(webElement.findElement(By.id("bottomMenu")));
+    private final Toolbar bottomToolbar = new Toolbar(getWebElement().findElement(By.id("bottomMenu")));
 
     public MediaToolbar(WebElement webElement)
     {

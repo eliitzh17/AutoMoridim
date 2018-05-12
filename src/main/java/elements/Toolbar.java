@@ -24,7 +24,7 @@ public class Toolbar extends AbstractObject{
         {
             buttons = new ArrayList<Button>();
 
-            for (WebElement element : webElement.findElements(By.tagName(ITEM_IN_LIST_TAG_NAME)))
+            for (WebElement element : getWebElement().findElements(By.tagName(ITEM_IN_LIST_TAG_NAME)))
             {
                 buttons.add(new Button(element));
             }

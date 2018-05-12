@@ -18,7 +18,7 @@ public class DropDown extends AbstractObject
         {
             option = new ArrayList<>();
 
-            for (WebElement element : webElement.findElements(By.tagName(OPTION_TAG_NAME)))
+            for (WebElement element : getWebElement().findElements(By.tagName(OPTION_TAG_NAME)))
             {
                 option.add(new Button(element));
             }
@@ -47,7 +47,7 @@ public class DropDown extends AbstractObject
     {
         init();
 
-        webElement.click();
+        getWebElement().click();
 
         option.get(index).click();
     }
