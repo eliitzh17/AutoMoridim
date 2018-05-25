@@ -1,13 +1,20 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import pages.abstractPages.Page;
 
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.List;
+
 import static java.lang.Class.forName;
 import static java.lang.Thread.sleep;
+import static java.util.concurrent.TimeUnit.SECONDS;
+import static utils.Consts.DEFAULT_TIME_OUT;
 import static utils.Consts.DOWNLOAD_CHAR_NUMBER;
 
 public class MyUtils
@@ -25,6 +32,7 @@ public class MyUtils
     public static <T extends Page> T createPageInstance(String className, WebDriver driver)
     {
         T newPage = null;
+
         try
         {
             newPage = (T) forName(className).getDeclaredConstructors()[0].newInstance(driver);
@@ -56,8 +64,36 @@ public class MyUtils
         return driver.getCurrentUrl().split("/")[3];
     }
 
-    public static void hover(WebDriver driver, WebElement webElement)
+    public static void hoverElement(WebDriver driver, WebElement webElement)
     {
         new Actions(driver).moveToElement(webElement).build().perform();
+    }
+
+    public static Object executeJS(WebElement webElement, WebDriver driver, String script)
+    {
+        return ((JavascriptExecutor) driver).executeScript(script, webElement);
+    }
+
+    public static <T> List<T> initWebElementList(List<WebElement> webElementList, Class<T> clazz)
+    {
+        List<T> temp = new ArrayList<>();
+
+        try
+        {
+            for (WebElement element : webElementList)
+            {
+                temp.add((T) Class.forName(clazz.getName()).getDeclaredConstructors()[0].newInstance(element));
+            }
+        } catch (InstantiationException | IllegalAccessException | InvocationTargetException | ClassNotFoundException e)
+        {
+            e.printStackTrace();
+        }
+
+        return temp;
+    }
+
+    public static void waitUntilPageReady(WebDriver driver)
+    {
+        driver.manage().timeouts().pageLoadTimeout(DEFAULT_TIME_OUT, SECONDS);
     }
 }

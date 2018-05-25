@@ -10,4 +10,5 @@ public final class Consts
     // Numeric Const's.
     public static final int FIRST_ITEM = 0;
     public static final int DOWNLOAD_CHAR_NUMBER = 6;
+    public static final int DEFAULT_TIME_OUT = 10;
 }

@@ -2,20 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6331608b-b87d-4db3-8c3c-2ad0a64bde38" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/AbstractSideBar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/PoplarItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/PoplarMedia.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/RequestContentsBox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/SurveyArea.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/objects/SurveyAnswer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/enums/RequestContentsEnum.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/elements/mainPageElement/SurveyArea.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/elements/mainPageElement/SurveyArea.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/elements/AbstractElement.class" afterPath="$PROJECT_DIR$/target/classes/elements/AbstractElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/elements/SearchBox.class" afterPath="$PROJECT_DIR$/target/classes/elements/SearchBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/elements/SearchResultItem.class" afterPath="$PROJECT_DIR$/target/classes/elements/SearchResultItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/elements/recommendMedia/RecommendItem.class" afterPath="$PROJECT_DIR$/target/classes/elements/recommendMedia/RecommendItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/elements/recommendMedia/Recommends.class" afterPath="$PROJECT_DIR$/target/classes/elements/recommendMedia/Recommends.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/objects/AbstractObject.class" afterPath="$PROJECT_DIR$/target/classes/objects/AbstractObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/objects/DropDown.class" afterPath="$PROJECT_DIR$/target/classes/objects/DropDown.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/objects/InputBox.class" afterPath="$PROJECT_DIR$/target/classes/objects/InputBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/objects/RadioButton.class" afterPath="$PROJECT_DIR$/target/classes/objects/RadioButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/abstractPages/VideoPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/abstractPages/VideoPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/filterPages/MainPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/filterPages/MainPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/infoPages/DMCAPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/infoPages/DMCAPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/Consts.class" afterPath="$PROJECT_DIR$/target/classes/utils/Consts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/MyUtils.class" afterPath="$PROJECT_DIR$/target/classes/utils/MyUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AbstractTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AbstractTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/CheckMovieDetails.class" afterPath="$PROJECT_DIR$/target/test-classes/CheckMovieDetails.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/BasicMediaInfo.java" afterPath="$PROJECT_DIR$/src/main/java/elements/BasicMediaInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/MediaToolbar.java" afterPath="$PROJECT_DIR$/src/main/java/elements/MediaToolbar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/AbstractElement.java" afterPath="$PROJECT_DIR$/src/main/java/elements/AbstractElement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/SearchBox.java" afterPath="$PROJECT_DIR$/src/main/java/elements/SearchBox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/Toolbar.java" afterPath="$PROJECT_DIR$/src/main/java/elements/Toolbar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/UsersToolbar.java" afterPath="$PROJECT_DIR$/src/main/java/elements/UsersToolbar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/SearchResultItem.java" afterPath="$PROJECT_DIR$/src/main/java/elements/SearchResultItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/recommendMedia/RecommendItem.java" afterPath="$PROJECT_DIR$/src/main/java/elements/recommendMedia/RecommendItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elements/recommendMedia/Recommends.java" afterPath="$PROJECT_DIR$/src/main/java/elements/recommendMedia/Recommends.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/objects/AbstractObject.java" afterPath="$PROJECT_DIR$/src/main/java/objects/AbstractObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/objects/Button.java" afterPath="$PROJECT_DIR$/src/main/java/objects/Button.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/objects/DropDown.java" afterPath="$PROJECT_DIR$/src/main/java/objects/DropDown.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/objects/InputBox.java" afterPath="$PROJECT_DIR$/src/main/java/objects/InputBox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/objects/MediaLength.java" afterPath="$PROJECT_DIR$/src/main/java/objects/MediaLength.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/abstractPages/Page.java" afterPath="$PROJECT_DIR$/src/main/java/pages/abstractPages/Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/AssertionUtils.java" afterPath="$PROJECT_DIR$/src/main/java/utils/AssertionUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/parametersObjects/ExceptedMediaInfo.java" afterPath="$PROJECT_DIR$/src/main/java/utils/parametersObjects/ExceptedMediaInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/objects/RadioButton.java" afterPath="$PROJECT_DIR$/src/main/java/objects/RadioButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/abstractPages/VideoPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/abstractPages/VideoPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/filterPages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/filterPages/MainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/infoPages/DMCAPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/infoPages/DMCAPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/Consts.java" afterPath="$PROJECT_DIR$/src/main/java/utils/Consts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/MyUtils.java" afterPath="$PROJECT_DIR$/src/main/java/utils/MyUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CheckMovieDetails.java" afterPath="$PROJECT_DIR$/src/test/java/CheckMovieDetails.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,18 +58,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/filterPages/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +73,8 @@
       <find>get</find>
       <find>mediaL</find>
       <find>junit</find>
+      <find>cop</find>
+      <find>2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,57 +83,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/elements/CategorySearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/abstractPages/VideoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/Recommend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/enums/PagesUrlsEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/objects/MyWebelement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/Label.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/MovieInRecommend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/CategoriesTabs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/objects/Label.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/MainComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/SurveyArea.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/PopularMediaView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/SearchResualtItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/SearchResultItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/listElement/MovieInRecommend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/listElement/SearchResultItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/MyUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/CategoriesSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/CategoriesSearchWithTabs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/AbstractElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/specificPage/SearchResultPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/categoriesSearch/CategoriesSearchWithTabs.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/CategorySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/CategorySearchToolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/listElement/SearchResultArea.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/filterPages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/listElement/Recommend.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/recommendMedia/MovieInRecommend.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/recommendMedia/Recommend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/recommendMedia/Recommends.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/recommendMedia/StreamRecommend.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/abstractPages/MediaPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/categoriesSearch/CategoriesSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/SearchResultItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/recommendMedia/RecommendItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/abstractPages/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/BasicMediaInfo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CheckMovieDetails.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/parametersObjects/ExceptedMediaInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/objects/MediaLength.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/AssertionUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/objects/Button.java" />
-        <option value="$PROJECT_DIR$/src/main/java/objects/DropDown.java" />
-        <option value="$PROJECT_DIR$/src/main/java/objects/AbstractObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elements/SearchBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/UsersToolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/Toolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/elements/MediaToolbar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/RadioButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/AbstractObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/SearchResultItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/abstractPages/VideoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/SurveyAnswer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/RequerstContents.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/AbstractSiderBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/SurveyArea.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/SurveyArea.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/RequerstContents.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/enums/RequestContentsEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/DropDown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/abstractPages/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/objects/InputBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/SearchBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Consts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/infoPages/DMCAPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/RequestContents.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/RequestContentsBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/MyUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/filterPages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/recommendMedia/RecommendItem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AbstractTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/recommendMedia/Recommends.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CheckMovieDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/AbstractSideBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/PoplarMedia.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/AbstractElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/PoplarItem.java" />
       </list>
     </option>
   </component>
@@ -162,7 +181,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +220,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MoridimSite" type="b2602c69:ProjectViewProjectNode" />
@@ -222,6 +240,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +249,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="mai&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;proje&#9;ACTION&#9;ActivateProjectToolWindow&#10;Main&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;SearchP&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/specificPage/SearchResultPage.java&#10;Mai&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;Abs&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/test/java/AbstractTest.java&#10;page.java&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/abstractPages/Page.java&#10;search&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/SearchBox.java&#10;utils&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/utils/Utils.java&#10;enum&#9;PSI&#9;JAVA://utils.enums.LastActivityEnum&#10;WebEle&#9;PSI&#9;JAVA://org.openqa.selenium.WebElement&#10;breakPoi&#9;ACTION&#9;ViewBreakpoints&#10;de&#9;ACTION&#9;ActivateDebugToolWindow&#10;Medi&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/abstractPages/MediaPage.java&#10;MediaPa&#9;PSI&#9;JAVA://pages.abstractPages.MediaPage&#10;main&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;צשןמפש&#9;PSI&#9;JAVA://pages.filterPages.MainPage&#10;Ma&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;User&#9;PSI&#9;JAVA://elements.UsersToolbarSteps&#10;Utils&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/utils/Utils.java&#10;Sear&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/SearchBox.java&#10;Sea&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/SearchBox.java&#10;Urls&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/utils/enums/UrlsEnum.java&#10;Page&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/abstractPages/Page.java&#10;FluentP&#9;PSI&#9;JAVA://org.fluentlenium.core.FluentPage" />
+    <property name="SearchEverywhereHistoryKey" value="mainpage&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;recommends&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/recommendMedia/Recommends.java&#10;mave&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;Page&#9;PSI&#9;JAVA://pages.abstractPages.Page&#10;main&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;Maib&#9;PSI&#9;JAVA://org.slf4j.helpers.MarkerIgnoringBase&#10;MAI&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;Rad&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/objects/RadioButton.java&#10;Mai&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;Surv&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/mainPageElement/SurveyArea.java&#10;rad&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/objects/RadioButton.java&#10;JavascriptExecutor&#9;PSI&#9;JAVA://org.openqa.selenium.JavascriptExecutor&#10;mai&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;proje&#9;ACTION&#9;ActivateProjectToolWindow&#10;Main&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;SearchP&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/specificPage/SearchResultPage.java&#10;Abs&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/test/java/AbstractTest.java&#10;page.java&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/abstractPages/Page.java&#10;search&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/SearchBox.java&#10;utils&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/utils/Utils.java&#10;enum&#9;PSI&#9;JAVA://utils.enums.LastActivityEnum&#10;WebEle&#9;PSI&#9;JAVA://org.openqa.selenium.WebElement&#10;breakPoi&#9;ACTION&#9;ViewBreakpoints&#10;de&#9;ACTION&#9;ActivateDebugToolWindow&#10;Medi&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/abstractPages/MediaPage.java&#10;MediaPa&#9;PSI&#9;JAVA://pages.abstractPages.MediaPage&#10;צשןמפש&#9;PSI&#9;JAVA://pages.filterPages.MainPage&#10;Ma&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/pages/filterPages/MainPage.java&#10;User&#9;PSI&#9;JAVA://elements.UsersToolbarSteps&#10;Utils&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/utils/Utils.java&#10;Sear&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/SearchBox.java&#10;Sea&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/elements/SearchBox.java&#10;Urls&#9;FILE&#9;file://C:/Users/Asor/Downloads/Project/AutoMoridim/AutoMoridim/src/main/java/utils/enums/UrlsEnum.java&#10;FluentP&#9;PSI&#9;JAVA://org.fluentlenium.core.FluentPage" />
     <property name="jdk.selected.PLUGIN_MODULE" value="IntelliJ IDEA Community Edition IC-172.4155.36" />
   </component>
   <component name="RecentsManager">
@@ -253,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckMovieDetails">
+  <component name="RunManager" selected="JUnit.CheckMovieDetails.test">
     <configuration name="CheckMovieDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoridimSite" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -417,8 +436,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckMovieDetails" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckMovieDetails.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckMovieDetails.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckMovieDetails" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.TestingTest.testitngTest" />
       </list>
     </recent_temporary>
@@ -437,53 +456,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 13h 11m 54s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 13h 23m 35s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 13h 24m 32s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 13h 27m 09s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 13h 57m 48s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 14h 10m 59s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 14h 11m 43s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails - 2018.05.11 at 14h 28m 39s.xml">
-      <configuration name="CheckMovieDetails" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckMovieDetails_test - 2018.05.11 at 12h 38m 32s.xml">
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 19h 30m 35s.xml">
       <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckMovieDetails_test - 2018.05.11 at 12h 40m 20s.xml">
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 19h 31m 07s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 19h 32m 49s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 19h 33m 25s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 21h 08m 25s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 21h 09m 23s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 21h 39m 08s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 21h 40m 01s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.21 at 21h 52m 11s.xml">
+      <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckMovieDetails_test - 2018.05.25 at 16h 49m 43s.xml">
       <configuration name="CheckMovieDetails.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280507" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5030257" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3169572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41288432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -493,106 +510,66 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5030257" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/objects/SurveyAnswer.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CheckMovieDetails.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CheckMovieDetails.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="56" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="thisElement.getWebElement().equals(element)" language="JAVA" />
-        <watch expression="searchResult.stream().anyMatch(thisElement -&gt; thisElement.getWebElement().equals(element))" language="JAVA" />
+        <watch expression="getDriver()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/specificPage/GamePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/categoriesSearch/CategoriesSearchWithTabs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/specificPage/MoviePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/specificPage/OneSeriesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/specificPage/UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/usersPages/ForgotPasswordPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/MyWebelement.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.10.0/selenium-remote-driver-3.10.0-sources.jar!/org/openqa/selenium/interactions/Actions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/PopularMediaView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="582" column="16" lean-forward="false" selection-start-line="582" selection-start-column="16" selection-end-line="582" selection-end-column="16" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Label.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/BasicMediaInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="-103">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -604,27 +581,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/AnimationMediaItem.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.10.0/selenium-support-3.10.0.jar!/org/openqa/selenium/support/FindBy.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/MediaToolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/Toolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/UsersToolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/abstractPages/MediaPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="108" lean-forward="false" selection-start-line="20" selection-start-column="108" selection-end-line="20" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/abstractPages/VideoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="127" column="34" lean-forward="false" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/infoPages/HowToDownloadPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/infoPages/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/filterPages/FourKPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/RadioButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/SurveyAnswer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/RequerstContents.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/SurveyArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/CategorySearchToolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar!/org/slf4j/helpers/MarkerIgnoringBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/DropDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/CheckBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/SearchBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="57" column="88" lean-forward="false" selection-start-line="57" selection-start-column="88" selection-end-line="57" selection-end-column="88" />
+          <folding>
+            <element signature="e#2100#2101#0" expanded="false" />
+            <element signature="e#2154#2155#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/enums/RequestContentsEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="107" column="30" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/InputBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Consts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/infoPages/DMCAPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/enums/PagesUrlsEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.10.0/selenium-remote-driver-3.10.0-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#5878#5879#0" expanded="false" />
+            <element signature="e#5920#5921#0" expanded="false" />
+            <element signature="e#5957#5958#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/RequestContentsBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/SearchResultItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="27" column="104" lean-forward="false" selection-start-line="27" selection-start-column="104" selection-end-line="27" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/AbstractObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/enums/LastActivityEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="170" column="12" lean-forward="false" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="190">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -635,302 +829,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.10.0/selenium-remote-driver-3.10.0-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/specificPage/SearchResultPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#413#414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/listElement/SearchResultArea.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/abstractPages/MediaPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="108" lean-forward="false" selection-start-line="20" selection-start-column="108" selection-end-line="20" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/SearchResultItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#1975#1976#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/abstractPages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Consts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/enums/PagesUrlsEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/categoriesSearch/CategoriesSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="47" column="105" lean-forward="false" selection-start-line="47" selection-start-column="105" selection-end-line="47" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/categoriesSearch/CategoriesSearchWithTabs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/CategoriesTabs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/CategorySearchToolbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/MainComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/PopularMediaView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/SurveyArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/recommendMedia/Recommends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elements/recommendMedia/StreamRecommend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="569" column="6" lean-forward="false" selection-start-line="569" selection-start-column="6" selection-end-line="569" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elements/recommendMedia/RecommendItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="127">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/BasicMediaInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/AbstractElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#281#282#0" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/MyUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AbstractTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0-sources.jar!/org/openqa/selenium/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="118">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/parametersObjects/ExceptedMediaInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/MediaLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/AssertionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckMovieDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/CheckBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/DropDown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/UsersToolbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/Toolbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/MediaToolbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/InputBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/AbstractObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/AbstractSideBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elements/SearchBox.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/PoplarMedia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+        <state relative-caret-position="126">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/mainPageElement/siderBarElement/PoplarItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/AbstractElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elements/recommendMedia/Recommends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/filterPages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="239">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckMovieDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/abstractPages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

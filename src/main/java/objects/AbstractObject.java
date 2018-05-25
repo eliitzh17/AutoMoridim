@@ -7,6 +7,11 @@ import static java.lang.Thread.sleep;
 
 public class AbstractObject
 {
+    public AbstractObject(WebElement webElement)
+    {
+        this.webElement = webElement;
+    }
+
     @Getter
     private WebElement webElement;
 
@@ -19,10 +24,5 @@ public class AbstractObject
         {
             e.printStackTrace();
         }
-    }
-
-    public AbstractObject(WebElement webElement)
-    {
-        this.webElement = webElement;
     }
 }

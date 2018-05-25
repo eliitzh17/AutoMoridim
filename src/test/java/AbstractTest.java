@@ -24,6 +24,7 @@ public class AbstractTest
     {
         setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.get(MAIN_PAGE_URL);
         closeLinksPopup(driver);
@@ -33,7 +34,7 @@ public class AbstractTest
     {
         driver.get(page.getUrl());
 
-        return createPageInstance(page.getClassName(), driver);
+        return createPageInstance(page.getClassName(), getDriver());
     }
 
     public static void sleep(double second)

@@ -1,17 +1,14 @@
 package pages.abstractPages;
 
-import objects.Label;
-import objects.MediaLength;
 import lombok.Getter;
 import objects.Button;
+import objects.Label;
+import objects.MediaLength;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import utils.MyUtils;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import static java.lang.Integer.parseInt;
 
 public class VideoPage extends MediaPage
 {
@@ -19,7 +16,9 @@ public class VideoPage extends MediaPage
     private static final String CATEGORY_TAG_NAME = "span";
 
     @Getter(lazy = true)
-    private final List<String> categories = initCategories();
+    private final List<Label> categories = MyUtils.initWebElementList(getDriver().findElement(
+            By.cssSelector("li[title$='" + CATEGORIES_END_VALUE_CSS_SELECTOR + "']")).findElements(
+            By.tagName(CATEGORY_TAG_NAME)), Label.class);
     @Getter(lazy = true)
     private final Label yearCreation = new Label("יציאה", getDriver());
     @Getter(lazy = true)
@@ -34,19 +33,5 @@ public class VideoPage extends MediaPage
     public VideoPage(WebDriver driver)
     {
         super(driver);
-    }
-
-    private List<String> initCategories()
-    {
-        List<String> tempCategories = new ArrayList<>();
-
-        for (WebElement element : getDriver().findElement(
-                By.cssSelector("li[title$='" + CATEGORIES_END_VALUE_CSS_SELECTOR + "']")).findElements(
-                By.tagName(CATEGORY_TAG_NAME)))
-        {
-            tempCategories.add(element.getText());
-        }
-
-        return tempCategories;
     }
 }

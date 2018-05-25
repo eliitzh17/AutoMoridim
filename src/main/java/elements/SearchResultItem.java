@@ -8,11 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.abstractPages.MediaPage;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import static utils.MyUtils.createPageInstance;
-import static utils.MyUtils.getPageCategoryFromUrl;
+import static utils.MyUtils.*;
 import static utils.enums.PagesUrlsEnum.getEnumBySpecificPageName;
 
 public class SearchResultItem extends AbstractElement
@@ -26,7 +24,8 @@ public class SearchResultItem extends AbstractElement
     @Getter(lazy = true)
     private final Label englishName = new Label(getWebElement().findElements(By.tagName("h4")).get(1));
     @Getter(lazy = true)
-    private final List<Label> categoriesList = initCategories();
+    private final List<Label> categoriesList = initWebElementList(
+            getWebElement().findElement(By.className("text")).findElements(By.tagName("p")), Label.class);
     @Getter(lazy = true)
     private final Label subtitleContext = new Label(getWebElement().findElement(By.className("blueBar")));
     @Getter(lazy = true)
@@ -51,18 +50,6 @@ public class SearchResultItem extends AbstractElement
     private WebElement initBottomElement(int index)
     {
         return getWebElement().findElement(By.className("bottom")).findElements(By.tagName("b")).get(index);
-    }
-
-    private List<Label> initCategories()
-    {
-        List<Label> tempList = new ArrayList<>();
-
-        for (WebElement element : getWebElement().findElement(By.className("text")).findElements(By.tagName("p")))
-        {
-            tempList.add(new Label(element));
-        }
-
-        return tempList;
     }
 
     public <T extends MediaPage> T navigate(WebDriver driver)

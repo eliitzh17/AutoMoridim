@@ -1,29 +1,20 @@
 package objects;
 
+import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.MyUtils;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class DropDown extends AbstractObject
 {
     private static String OPTION_TAG_NAME = "option";
 
-    private List<Button> option;
+    @Getter(lazy = true)
+    private final List<Button> option = MyUtils.initWebElementList(
+            getWebElement().findElements(By.tagName(OPTION_TAG_NAME)), Button.class);
 
-    public void init()
-    {
-        if (option == null)
-        {
-            option = new ArrayList<>();
-
-            for (WebElement element : getWebElement().findElements(By.tagName(OPTION_TAG_NAME)))
-            {
-                option.add(new Button(element));
-            }
-        }
-    }
     public DropDown(WebElement webElement)
     {
         super(webElement);
@@ -31,13 +22,11 @@ public class DropDown extends AbstractObject
 
     public void select(String value)
     {
-        init();
-
-        for (Button button : option)
+        for (Button button : getOption())
         {
             if (button.getText().equals(value))
             {
-                select(option.indexOf(button));
+                select(getOption().indexOf(button));
                 return;
             }
         }
@@ -45,15 +34,8 @@ public class DropDown extends AbstractObject
 
     public void select(int index)
     {
-        init();
-
         getWebElement().click();
 
-        option.get(index).click();
-    }
-
-    public List<Button> getOption()
-    {
-        return option;
+        getOption().get(index).click();
     }
 }

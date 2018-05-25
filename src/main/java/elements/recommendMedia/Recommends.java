@@ -3,10 +3,12 @@ package elements.recommendMedia;
 import elements.AbstractElement;
 import lombok.Getter;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
 import java.util.List;
+
+import static utils.MyUtils.initWebElementList;
 
 /**
  * This element collect list of recommend media,
@@ -18,22 +20,25 @@ public class Recommends extends AbstractElement
     public static String RECOMMEND_CLASS = "recommended";
 
     @Getter(lazy = true)
-    private final List<RecommendItem> recommendList = initList();
+    private final List<RecommendItem> recommendList = initWebElementList(
+            getWebElement().findElements(By.tagName("li")), RecommendItem.class);
 
-    public Recommends(WebElement element)
+    public RecommendItem hoverAndGetRecommend(int index)
     {
-        super(element);
+        hover();
+
+        getRecommendList().get(index);
+
+        return getRecommendList().get(index);
     }
 
-    private List<RecommendItem> initList()
+    public Recommends (WebDriver webDriver)
     {
-        List<RecommendItem> tempList = new ArrayList<>();
+        super(webDriver, By.className(RECOMMEND_CLASS));
+    }
 
-        for (WebElement element : getWebElement().findElements(By.tagName("li")))
-        {
-            tempList.add(new RecommendItem(element));
-        }
-
-        return tempList;
+    public Recommends(WebElement webElement)
+    {
+        super(webElement);
     }
 }
